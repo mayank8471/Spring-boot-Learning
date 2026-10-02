@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Spring-web-RestFul-Actuator
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -1,0 +1,16 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="com.mayank.Student">
+        <property name="name" value="Mayank"/>
+    </bean>
+    
+    <bean id="helloBean" class="com.mayank.Hello" />
+    
+    
+
+</beans>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Education Site</title>
+</head>
+<body>
+    <h1>Welcome to Education Site</h1>
+    <p>This is a Spring Boot Web Application</p>
+
+    <button onclick="loadData()">Click for API</button>
+
+    <p id="result"></p>
+
+    <script>
+        function loadData() {
+            fetch('/api')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("result").innerHTML = data;
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Spring-web-RestFul-WebClient
+Rest:
+  apiUrl: https://mp5b020fdd50ca942d89.free.beeceptor.com
+  
+mayank:
+  messages:
+   greetMSG: Hello Mayank!!
+   WelcomeMSG: Welcome Mayank
